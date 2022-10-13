@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel ="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <label for="fname">Name<span class="required">*</span></label>
+                    <div class="namebox">
+                        <div>
+                            <input type="text" id="fname" size = "35" required>
+                            <small id="fnamehelp" class="form-text text-muted">First</small>
+                        </div>
+                        <div>
+                            <input type="text" id="lname" size = "35" required>
+                            <small id="lnamehelp" class="form-text text-muted">Last</small>
+                        </div>
+                    </div>
+                    <div class="ele">
+                        <label for="email">Email<span class="required">*</span></label>
+                        <br>
+                        <input type="email" id="email" size="83" required>
+                        <br>
+                    </div>
+                    <div class="ele">
+                        <label for="exp">Your Experience<span class="required">*</span></label>
+                        <br>
+                        <span class="fa fa-star checked fa-2x"></span>
+                        <span class="fa fa-star checked fa-2x" ></span>
+                        <span class="fa fa-star checked fa-2x"></span>
+                        <span class="fa fa-star checked fa-2x"></span>
+                        <span class="fa fa-star checked fa-2x"></span>
+                        <small id="expstar" class="form-text text-muted">Overall how would you rate your experience with us?</small>
+                    </div>
+                    <div class="ele">
+                        <label for="rd1">How satisfied are you with<span class="required">*</span></label>
+                        <br>
+                        <table>
+                            <tr>
+                                <td></td>
+                                <td>Very Unsatisfied</td>
+                                <td>Unsatisfied</td>
+                                <td>Netural</td>
+                                <td>Satisfied</td>
+                                <td>Very Satisfied</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; width: 15%;">Purchase</td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Servive</td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Company overall</td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                    <div class="ele">
+                        <label for="rd1">How likely are you to <span class="required">*</span></label>
+                        <br>
+                        <table>
+                            <tr>
+                                <td></td>
+                                <td>Very Unlikely</td>
+                                <td>Unlikely</td>
+                                <td>Netural</td>
+                                <td>Likely</td>
+                                <td>Very Likely</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Buy from us again</td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; width: 15%;">Recommend our product to others</td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Recommend our product to others</td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                                <td><input type="radio" class="big"></td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                    <div class="ele">
+                        <label for="exp">Additional comments or suggestions</label>
+                        <br>
+                        <textarea id="cmts"rows="4" cols="141"></textarea>
+                    </div>
+                    <div class="ele">
+                        <button type="submit" value="Submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
